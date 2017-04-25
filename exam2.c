@@ -3,7 +3,7 @@
 
 int main()
 {
-	char input[42];
+	char input[200];
 	int gradeNumber = 1;
 	int gradeScore;
 	int bestGrade;
@@ -17,7 +17,7 @@ int main()
 			fgets(input,sizeof(input),stdin);
 			sscanf(input,"%d",&gradeScore);
 			}
-			while(gradeScore < -1 || gradeScore > 100);
+			while(gradeScore < -1 || gradeScore > 300);
 			gradeNumber++;
 		
 
