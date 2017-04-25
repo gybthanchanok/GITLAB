@@ -13,7 +13,7 @@ int main()
 		{
 			do
 			{
-			printf("Enter grade %d (between 0 and 100) : ",gradeNumber);
+			printf("Enter grade %d (between 0 and 200) : ",gradeNumber);
 			fgets(input,sizeof(input),stdin);
 			sscanf(input,"%d",&gradeScore);
 			}
