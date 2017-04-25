@@ -3,7 +3,7 @@
 #include <stdio.h>
 int reAskRoomWidth(int count)
 {
-	char inputLine[42];
+	char inputLine[100];
 	double roomWidth=0;
 	while(roomWidth <= 0)
 	{
